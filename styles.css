@@ -1,32 +1,36 @@
-body {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 16px;
+html, body {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+    background-color: #11cfbf;
+    
 }
 
-.home {
-    background: lightseagreen;
-    color: purple;
-    padding: 2px;
-    border: 2px solid purple;
-    margin-right: 850px;
-    text-align: center;
+.container > div {
+    width: 100%;
+}
+
+.container {
+    border: 5px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 
 }
 
 .title {
-    background: lightseagreen;
-    color: purple;
-    padding: 12px;
-    border: 5px solid purple;
-    margin-right: 550px;
-    text-align: center;
+    border-top: 5px solid purple;
+    border-bottom: 5px solid purple;
+    color: darkmagenta;
+    display: flex;
+    justify-content: center;
+
+
 }
 
 .list {
-    background: lightseagreen;
     color: purple;
-    border: 5px solid purple;
-    margin-top: 0;
-    margin-right: 550px;
-
+    display: flex;
+    justify-content: flex-start; 
 }
